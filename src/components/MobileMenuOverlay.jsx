@@ -39,28 +39,28 @@ const MobileMenuOverlay = ({ isOpen, onClose }) => {
           <a
             href="#about"
             onClick={onClose}
-            className="font-medium text-muted-text hover:text-main-text transition-colors tracking-wide"
+            className="text-muted-text hover:text-main-text transition-colors tracking-wide"
           >
             About
           </a>
           <a
             href="#projects"
             onClick={onClose}
-            className="font-medium text-muted-text hover:text-main-text transition-colors tracking-wide"
+            className="text-muted-text hover:text-main-text transition-colors tracking-wide"
           >
             Projects
           </a>
           <a
             href="#skills"
             onClick={onClose}
-            className="font-medium text-muted-text hover:text-main-text transition-colors tracking-wide"
+            className="text-muted-text hover:text-main-text transition-colors tracking-wide"
           >
             Skills
           </a>
           <a
             href="#contact"
             onClick={onClose}
-            className="font-medium text-muted-text hover:text-main-text transition-colors tracking-wide"
+            className="text-muted-text hover:text-main-text transition-colors tracking-wide"
           >
             Contact
           </a>

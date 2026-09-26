@@ -43,7 +43,7 @@ const Hero = () => {
 
             <div className="flex items-center justify-start md:justify-center lg:justify-start gap-5 mb-12 sm:mb-20 lg:mb-0">
               <a
-                href="https://github.com"
+                href="https://github.com/himanshu-mawari"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="GitHub Profile"
@@ -53,7 +53,7 @@ const Hero = () => {
               </a>
 
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/himanshu-mawari-79b621329/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn Profile"
