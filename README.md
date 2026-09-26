@@ -1,16 +1,33 @@
-# React + Vite
+# Himanshu Mawari — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website showcasing my work as a full-stack developer.
 
-Currently, two official plugins are available:
+Built with React, Vite, and Tailwind CSS, with a focus on clean UI, responsive design, and practical project work.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live site:** [Portfolio](your-vercel-link)
 
-## React Compiler
+## Featured Projects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### DevTinder
+Developer networking platform with developer matching and real-time chat.
 
-## Expanding the ESLint configuration
+[Live](https://devtinder-himanshu.vercel.app) · [Repository](https://github.com/himanshu-mawari/devtinder-frontend)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Forever
+Full-stack e-commerce platform with a customer storefront and admin panel.
+
+[Live](https://forever-himanshu-five.vercel.app) · [Repository](https://github.com/himanshu-mawari/ecommerce-frontend)
+
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+
+## Run Locally
+
+```bash
+git clone https://github.com/himanshu-mawari/portfolio.git
+cd portfolio
+npm install
+npm run dev
