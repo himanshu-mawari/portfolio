@@ -1,0 +1,62 @@
+@import url('https://api.fontshare.com/v2/css?f[]=uncut-sans@700,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+
+
+:root {
+    --color-bg-main: #F8FAFC;
+    --color-bg-card: #FFFFFF;
+    --color-text-main: #0F172A;
+    --color-text-muted: #64748B;
+    --color-brand: #4F46E5;
+    --color-brand-hover: #4338CA;
+    --color-card-border: #E2E8F0;
+    --color-badge-bg: #EEF2FF;
+}
+
+@theme {
+    --color-main-bg: var(--color-bg-main);
+    --color-card-bg: var(--color-bg-card);
+    --color-main-text: var(--color-text-main);
+    --color-muted-text: var(--color-text-muted);
+    --color-brand: var(--color-brand);
+    --color-brand-hover: var(--color-brand-hover);
+    --color-line-border: var(--color-card-border);
+    --color-badge-bg: var(--color-badge-bg);
+}
+
+@layer base {
+
+    html,
+    body,
+    #root {
+        background-color: var(--color-bg-main);
+        color: var(--color-text-main);
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-family: 'Uncut Sans', sans-serif;
+        font-weight: 700;
+        letter-spacing: -0.025em;
+    }
+
+    body {
+        font-family: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .reveal {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .reveal.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
