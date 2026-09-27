@@ -63,7 +63,7 @@ const Hero = () => {
               </a>
 
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:mawrihimanshu83@gmail.com"
                 aria-label="Send Email"
                 className="p-2.5 rounded-full border border-line-border bg-card-bg hover:text-brand transition-all"
               >
