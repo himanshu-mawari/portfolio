@@ -22,13 +22,11 @@ const Project = () => {
                 key={project.id || index}
                 className="grid items-center gap-8 lg:grid-cols-2 lg:gap-12"
               >
-                {/* Image Preview Container */}
                 <div
                   className={`w-full overflow-hidden rounded-2xl border border-line-border bg-card-bg shadow-2xs ${
                     isEven ? "lg:order-last" : "lg:order-first"
                   }`}
                 >
-                  {/* Window Header Dots */}
                   <div
                     className="flex h-9 items-center gap-2 border-b border-line-border bg-main-bg/50 px-4"
                     aria-hidden="true"
@@ -48,7 +46,6 @@ const Project = () => {
                   />
                 </div>
 
-                {/* Project Details */}
                 <div className="flex flex-col justify-center space-y-6">
                   <div>
                     <h3 className="text-2xl font-semibold tracking-tight text-main-text lg:text-3xl">
@@ -59,7 +56,6 @@ const Project = () => {
                     </p>
                   </div>
 
-                  {/* Feature Bullets */}
                   <ul className="space-y-2.5 text-sm text-muted-text lg:text-base">
                     {project.bullets.map((bullet, idx) => (
                       <li key={idx} className="flex items-start gap-2.5">
@@ -69,7 +65,6 @@ const Project = () => {
                     ))}
                   </ul>
 
-                  {/* Tech Stack Badges */}
                   <div className="flex flex-wrap gap-2 pt-1">
                     {project.stack.map((skill) => (
                       <span
@@ -81,7 +76,6 @@ const Project = () => {
                     ))}
                   </div>
 
-                  {/* Action Links */}
                   <div className="flex flex-wrap items-center gap-4 pt-2">
                     <a
                       href={project.liveUrl}
